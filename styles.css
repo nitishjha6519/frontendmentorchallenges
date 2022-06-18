@@ -121,6 +121,10 @@ button:hover {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+    
+    .lower-body {
+    padding: 2% 8%;
+}
     .summary {
         padding: 8px 10px;
         line-height: 20px;
