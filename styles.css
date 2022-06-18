@@ -122,13 +122,13 @@ button:hover {
         border-top-right-radius: 20px;
     }
     .summary {
-        padding: 10px 10px;
-        line-height: 25px;
+        padding: 8px 10px;
+        line-height: 20px;
         font-size: 20px;
     }
     .pricing {
-        height: 15%;
-        margin-bottom: 15px;
+        height: 12%;
+        margin-bottom: 10px;
         padding: 10px;
         font-size: 15px;
     }
@@ -138,7 +138,7 @@ button:hover {
         padding: 10px;
     }
     button {
-        margin: 4% 0;
+        margin: 2% 0;
         padding: 15px;
     }
 }
