@@ -122,7 +122,7 @@ button:hover {
         border-top-right-radius: 20px;
     }
     .summary {
-        padding: 15px 10px;
+        padding: 10px 10px;
         line-height: 25px;
         font-size: 20px;
     }
@@ -138,7 +138,7 @@ button:hover {
         padding: 10px;
     }
     button {
-        margin: 5% 0;
+        margin: 4% 0;
         padding: 15px;
     }
 }
