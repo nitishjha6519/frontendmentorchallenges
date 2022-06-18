@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.music-girl {
+    background-image: url("/images/illustration-hero.svg");
+    height: 32%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lower-body {
+    padding: 6% 8%;
+}
+
+.summary {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.summaryP {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.plan {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.change {
+    margin-left: auto;
+}
+
+a:visited {
+    color: hsl(245, 75%, 52%);
+}
+
+img {
+    width: 10%;
+    height: 25%;
+    padding: 10px;
+}
+
+button {
+    margin: 5% 0;
+    width: 100%;
+    padding: 12px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: -10px 15px 10px hsl(225, 95%, 95%);
+}
+
+button:hover {
+    background-color: hsl(245, 77%, 37%);
+}
+
+.cancel {
+    text-align: center;
+    color: gray;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("/images/pattern-background-mobile.svg");
+    }
+    .content {
+        height: 90%;
+        width: 90%;
+        border-radius: 20px;
+    }
+    .music-girl {
+        background-image: url("/images/illustration-hero.svg");
+        height: 30%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .summary {
+        padding: 15px 10px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .pricing {
+        height: 15%;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    img {
+        width: 20%;
+        height: 50%;
+        padding: 10px;
+    }
+    button {
+        margin: 8% 0;
+        padding: 15px;
+    }
+}
