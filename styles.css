@@ -125,23 +125,25 @@ button:hover {
     .lower-body {
     padding: 2% 8%;
 }
+   
     .summary {
-        padding: 8px 10px;
+        padding: 15px 10px;
+        line-height: 20px;
         font-size: 20px;
     }
     .pricing {
-        height: 12%;
-        margin-bottom: 10px;
+        height: 15%;
+        margin-bottom: 15px;
         padding: 10px;
         font-size: 15px;
     }
     img {
-        width: 10%;
-        height: 40%;
+        width: 20%;
+        height: 50%;
         padding: 10px;
     }
     button {
-        margin: 1% 0;
+        margin: 5% 0;
         padding: 15px;
     }
 }
